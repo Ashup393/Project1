@@ -1,0 +1,78 @@
+.register{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    width: 100%;
+    background-color: blueviolet;
+  
+
+form{
+    background-color: white;
+    max-width:400px;
+    padding:20px;
+    width:100%;
+    border-radius: 5px;
+   
+}
+h1{
+    color:blue
+}
+.Newlink{
+    text-decoration: none;
+    padding-left: 2%;
+
+}
+.forgetlink{
+    text-decoration: none;
+    padding-left: 30%;
+}
+button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    width:100%;
+    height:40px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    margin:15px 0 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    &:hover{
+        background-color: black;
+    }
+    
+  
+}
+.google{
+    border:2px solid rgb(226, 223, 223);
+    display: flex;
+//   margin-bottom: 5%;
+  margin-top:4%;
+}
+.welcome{
+    text-align: center;
+    font-size: large;
+}
+.welbelow{
+    padding-left: 10%;
+}
+img{
+    height: 25px;
+    margin:5px 10px 0 5px;
+}
+.textgoogle{
+    padding-top:2%;
+}
+.forwardclass{
+    padding-top:2%;
+    color:gray;
+    padding-left: 40%;
+
+}
+
+}

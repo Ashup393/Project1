@@ -1,0 +1,39 @@
+.home{
+margin-left: 4%;
+margin-right: 4%;
+background-color: rgb(221, 217, 217);
+}
+Link{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+}
+img{
+  width:35%;
+  padding-top:8%;
+  padding-left:1%
+
+}
+.gridview{
+    display:grid;
+    grid-template-columns: auto auto auto;
+}
+h3{
+    border-top: 5px solid black;
+    padding-top: 2%;
+}
+.maindiv{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+// .rightdiv{
+//     display:grid;
+// }
+.sidediv{
+   padding-left: 20%;
+    width:100%;
+    margin:0
+}
+.sidediv img{
+    width:15%
+}
